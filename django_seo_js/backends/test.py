@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 
-from base import SEOBackendBase
+from django_seo_js.backends.base import SEOBackendBase
 
 
 class TestBackend(SEOBackendBase):
